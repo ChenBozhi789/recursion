@@ -13,10 +13,6 @@ function fac(n) {
         return 5;
     } else if (n > 1) {
         return fac(n-1) + 2;
-        // A3 = fac(2) + 2  
-        // A2 = fac(1) + 2
-
-        // A3 = fac(1) + 2 + 2
     }
 }
 
