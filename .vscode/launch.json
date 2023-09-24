@@ -7,11 +7,21 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "启动程序",
+            "name": "启动recursion",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\recursion.js"
+        }, 
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "启动Hanoi",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\HanoiTower.js"
         }
     ]
 }
